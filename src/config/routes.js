@@ -39,5 +39,4 @@ module.exports = function (server) {
     openApi.post('/login', AuthService.login);
     openApi.post('/signup', AuthService.signup);
     openApi.post('/validatetoken', AuthService.validateToken);
-
 };
