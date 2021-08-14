@@ -2,8 +2,6 @@ const bodyParser = require('body-parser');
 const express = require('express');
 const cors = require('cors');
 const queryParser = require('express-query-int');
-const dotenv = require('dotenv');
-dotenv.config();
 const server = express();
 // const allowCors = require('./cors');
 
